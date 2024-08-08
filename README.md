@@ -20,7 +20,7 @@ suma = sum(valores)
 media = suma / length
 print('La media es:', media)
 
-#calcular potencia de la señal
+# calcular potencia de la señal
 valores_cuadrados=np.zeros(length)
 for i in range(length):
     valores_cuadrados[i]=valores[i]**2
@@ -37,16 +37,16 @@ for i in range(length):
     suma2=sum(diferencia)
     
     
-#calcular desviacion estandar
+# calcular desviacion estandar
    
 desviacion_estandar=math.sqrt(suma2/length)
 print('Desviacion estandar: ',desviacion_estandar)
-#calcular coeficiente de variacion
+# calcular coeficiente de variacion
 
 coeficiente_variacion=desviacion_estandar/media
 print('coeficiente de variacion: ',coeficiente_variacion)
 
-#crear ruido gaussiano
+# crear ruido gaussiano
 numerosazar=np.zeros(length)
 numeros_aleatorios=numerosazar
 for i in range(length):
@@ -69,7 +69,7 @@ potenciag=sumag/length
 SNRg=10*np.log10(potencia/potenciag)
 print('relacion ruido ',SNRg)
 
-#crear ruido artefacto
+# crear ruido artefacto
 Fs=1200
 F=60
 t=np.arange(0,length,1/Fs)
@@ -87,7 +87,7 @@ print('potencia de la señal ruido a: ',potenciaa)
 SNRa=10*np.log10(potencia/potenciaa)
 print('SNRa ',SNRa)
 
-#ruido impulso
+# ruido impulso
 ti=np.arange(0,length,1)
 impulso=(ti==500)*0.7
 signal_impulso=valores+impulso
@@ -104,7 +104,10 @@ print('potencia de la señal impulso: ',potenciai)
 
 SNRi=10*np.log10(potencia/potenciai)
 print('SNRi ',SNRi)
-#histograma
+# histograma
 normalizacion=(valores-media)/desviacion_estandar
 plt.hist(normalizacion,bins=10,edgecolor='black',density=True)
 plt.show()
+
+# signal
+![image](https://github.com/user-attachments/assets/620dcbad-a741-4c09-8dec-0a2b5ecb3cf2)
