@@ -111,3 +111,31 @@ plt.show()
 
 # signal
 ![image](https://github.com/user-attachments/assets/620dcbad-a741-4c09-8dec-0a2b5ecb3cf2)
+# ruido gaussiano 
+![image](https://github.com/user-attachments/assets/0eefd948-bba2-4818-8147-7b9f9bc7cf72)
+
+# senal con ruido gaussiano
+![image](https://github.com/user-attachments/assets/d1ef572a-78aa-4191-be90-65860af7c528)
+
+# ruido artefacto 
+![image](https://github.com/user-attachments/assets/2c9270ff-73eb-45af-901a-fde602ce7553)
+
+# senal ruido artefacto
+![image](https://github.com/user-attachments/assets/b2fcf4e3-0e24-4ebc-915a-dc5313c6c866)
+
+# senal con ruido impulso 
+![image](https://github.com/user-attachments/assets/92d93221-3abc-4093-a122-870187e51766)
+
+# histograma
+![image](https://github.com/user-attachments/assets/b8e58dbe-b689-44cd-9691-538713c837b2)
+
+# valores estadisticos
+La media es: 0.0032151599584023033
+potencia de la señal:  0.0022070566422237427
+Desviacion estandar:  0.04686917311693933
+coeficiente de variacion:  14.57755561879722
+relacion ruido  18.388740564236187
+potencia de la señal ruido a:  1.5680000000000023e-05
+SNRa  21.484674207532212
+potencia de la señal impulso:  0.00049
+SNRi  6.536173990731279
